@@ -11,3 +11,11 @@ Los comandos del Makefile funcionarán en Linux y MacOS. En caso de usar Windows
 python3 main.py <filename> <dup>
   filename: **ruta** al fichero que contiene la lista de palabras, una por línea
   dup: **yes|no**, yes para eliminar palabras duplicadas, no para mantener la lista
+## Mensajes en inglés
+
+Los mensajes que imprime el programa ahora están en inglés (aportación de Jonathan Hernandez). Ejemplo sin fichero de palabras:
+
+    $ python3 main.py words.txt no
+    Words will be read from the file words.txt
+    The file words.txt does not exist
+    ['gryffindor', 'hufflepuff', 'ravenclaw', 'slytherin']
