@@ -21,3 +21,11 @@ El repositorio incluye el fichero `words.txt` con palabras desordenadas y repeti
     ['banana', 'fresa', 'kiwi', 'manzana', 'pera', 'uva']
 
 Con `no` se mantienen las palabras duplicadas.
+## Mensajes en inglés
+
+Los mensajes que imprime el programa ahora están en inglés (aportación de Jonathan Hernandez). Ejemplo sin fichero de palabras:
+
+    $ python3 main.py words.txt no
+    Words will be read from the file words.txt
+    The file words.txt does not exist
+    ['gryffindor', 'hufflepuff', 'ravenclaw', 'slytherin']
